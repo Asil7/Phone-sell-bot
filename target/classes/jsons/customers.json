@@ -1,0 +1,21 @@
+[
+  {
+    "id": 0
+  },
+  {
+    "orderItemList": [],
+    "id": 5029523617,
+    "firstName": "Iymonbek",
+    "phoneNumber": "998946386153",
+    "role": "CUSTOMER"
+  },
+  {
+    "orderItemList": [],
+    "id": 1039059897,
+    "firstName": "Asilbek",
+    "lastName": "Fayzullayev",
+    "phoneNumber": "+998998860760",
+    "userName": "asilbekFayzullayev7",
+    "role": "CUSTOMER"
+  }
+]

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="PostgreSQL - postgres@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.39">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <Comment>default administrative connection database</Comment>
+      <Current>1</Current>
+      <Grants>11||10|C|G
+11||-9223372036854775808|U|G
+11||10|U|G
+2200||-9223372036854775808|C|G
+2200||10|C|G
+2200||-9223372036854775808|U|G
+2200||10|U|G
+13388||10|C|G
+13388||-9223372036854775808|U|G
+13388||10|U|G</Grants>
+      <IntrospectionStateNumber>762</IntrospectionStateNumber>
+      <ObjectId>13754</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <role id="3" parent="1" name="pg_database_owner">
+      <ObjectId>6171</ObjectId>
+    </role>
+    <role id="4" parent="1" name="pg_read_all_data">
+      <ObjectId>6181</ObjectId>
+    </role>
+    <role id="5" parent="1" name="pg_write_all_data">
+      <ObjectId>6182</ObjectId>
+    </role>
+    <role id="6" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <RoleGrants>3374
+3375
+3377</RoleGrants>
+    </role>
+    <role id="7" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="8" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="9" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="10" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="12" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="13" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="14" parent="1" name="postgres">
+      <BypassRls>1</BypassRls>
+      <CanLogin>1</CanLogin>
+      <CreateDb>1</CreateDb>
+      <CreateRole>1</CreateRole>
+      <ObjectId>10</ObjectId>
+      <Replication>1</Replication>
+      <SuperRole>1</SuperRole>
+    </role>
+    <tablespace id="15" parent="1" name="pg_default">
+      <ObjectId>1663</ObjectId>
+      <StateNumber>1</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </tablespace>
+    <tablespace id="16" parent="1" name="pg_global">
+      <ObjectId>1664</ObjectId>
+      <StateNumber>1</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </tablespace>
+    <schema id="17" parent="2" name="information_schema">
+      <ObjectId>13388</ObjectId>
+      <StateNumber>533</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </schema>
+    <schema id="18" parent="2" name="pg_catalog">
+      <Comment>system catalog schema</Comment>
+      <ObjectId>11</ObjectId>
+      <StateNumber>526</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </schema>
+    <schema id="19" parent="2" name="public">
+      <Comment>standard public schema</Comment>
+      <Current>1</Current>
+      <IntrospectionStateNumber>762</IntrospectionStateNumber>
+      <ObjectId>2200</ObjectId>
+      <StateNumber>527</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </schema>
+    <table id="20" parent="19" name="customers">
+      <ObjectId>16415</ObjectId>
+      <StateNumber>759</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="21" parent="19" name="products">
+      <ObjectId>16408</ObjectId>
+      <StateNumber>748</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <column id="22" parent="20" name="id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>759</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="23" parent="20" name="user_name">
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>759</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="24" parent="20" name="customers_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16418</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>759</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <ClassIds>1978</ClassIds>
+      <CollationIds>0</CollationIds>
+    </index>
+    <index id="25" parent="20" name="customers_user_name_key">
+      <ColNames>user_name</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16420</ObjectId>
+      <StateNumber>759</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <ClassIds>3126</ClassIds>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+    </index>
+    <key id="26" parent="20" name="customers_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16419</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>759</StateNumber>
+      <UnderlyingIndexId>16418</UnderlyingIndexId>
+    </key>
+    <key id="27" parent="20" name="customers_user_name_key">
+      <ColNames>user_name</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16421</ObjectId>
+      <StateNumber>759</StateNumber>
+      <UnderlyingIndexId>16420</UnderlyingIndexId>
+    </key>
+    <column id="28" parent="21" name="id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>748</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="29" parent="21" name="name">
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>748</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="30" parent="21" name="quantity">
+      <DataType>integer|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>748</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="31" parent="21" name="price">
+      <DataType>double precision|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>748</StateNumber>
+      <TypeId>701</TypeId>
+    </column>
+    <index id="32" parent="21" name="products_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16411</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>748</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <ClassIds>1978</ClassIds>
+      <CollationIds>0</CollationIds>
+    </index>
+    <index id="33" parent="21" name="products_name_key">
+      <ColNames>name</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16413</ObjectId>
+      <StateNumber>748</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <ClassIds>3126</ClassIds>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+    </index>
+    <key id="34" parent="21" name="products_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16412</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>748</StateNumber>
+      <UnderlyingIndexId>16411</UnderlyingIndexId>
+    </key>
+    <key id="35" parent="21" name="products_name_key">
+      <ColNames>name</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16414</ObjectId>
+      <StateNumber>748</StateNumber>
+      <UnderlyingIndexId>16413</UnderlyingIndexId>
+    </key>
+  </database-model>
+</dataSource>

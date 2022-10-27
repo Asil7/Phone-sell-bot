@@ -1,0 +1,11 @@
+0. /start
+1. Welcome  [Share contact]
+2. contact-> code  ...code true -> check role user? ⬇ : --;
+Main menu  [See phones] [My cart] [Order history]
+
+3. See phones  ...phones  [Add my cart] [Back]
+4. Add my cart  ...product code  Enter quantity
+5. quantity  ...text setRound(2)
+
+6. My cart  [Show my cart] [Check out] [Remove item] [Remove all]
+7. Show my cart  ...show

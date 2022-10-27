@@ -1,0 +1,92 @@
+[
+  {
+    "id": 11,
+    "imgUrl": "src/main/resources/images/img_10.jpg",
+    "brand": "Samsung",
+    "model": "Mi Max Alpha",
+    "year": 2021,
+    "price": 18000000,
+    "memory": 1000
+  },
+  {
+    "id": 2,
+    "imgUrl": "src/main/resources/images/img_1.png",
+    "brand": "Apple",
+    "model": "Iphone 13 pro",
+    "year": 2021,
+    "price": 14000000,
+    "memory": 1000
+  },
+  {
+    "id": 3,
+    "imgUrl": "src/main/resources/images/img_2.jpg",
+    "brand": "Apple",
+    "model": "Iphone 12 pro max",
+    "year": 2020,
+    "price": 10000000,
+    "memory": 256
+  },
+  {
+    "id": 4,
+    "imgUrl": "src/main/resources/images/img_3.png",
+    "brand": "Me",
+    "model": "Redme note 10",
+    "year": 2020,
+    "price": 8000000,
+    "memory": 256
+  },
+  {
+    "id": 5,
+    "imgUrl": "src/main/resources/images/img_4.webp",
+    "brand": "Samsung",
+    "model": "Galaxy s10",
+    "year": 2019,
+    "price": 10000000,
+    "memory": 256
+  },
+  {
+    "id": 6,
+    "imgUrl": "src/main/resources/images/img_5.png",
+    "brand": "Samsung",
+    "model": "Galaxy a72",
+    "year": 2021,
+    "price": 4700000,
+    "memory": 256
+  },
+  {
+    "id": 7,
+    "imgUrl": "src/main/resources/images/img_6.jpg",
+    "brand": "Samsung",
+    "model": "Z Flip",
+    "year": 2021,
+    "price": 17000000,
+    "memory": 512
+  },
+  {
+    "id": 8,
+    "imgUrl": "src/main/resources/images/img_7.jpg",
+    "brand": "Apple",
+    "model": "Ipad pro",
+    "year": 2021,
+    "price": 15000000,
+    "memory": 1000
+  },
+  {
+    "id": 9,
+    "imgUrl": "src/main/resources/images/img_8.png",
+    "brand": "Samsung",
+    "model": "Vertu",
+    "year": 2018,
+    "price": 700000,
+    "memory": 64
+  },
+  {
+    "id": 10,
+    "imgUrl": "src/main/resources/images/img_9.jpg",
+    "brand": "Samsung",
+    "model": "Galaxy s22 Ultra",
+    "year": 2021,
+    "price": 13000000,
+    "memory": 512
+  }
+]
